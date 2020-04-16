@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Level1Task1</string>
+    <string name="top_text">Guess if the next throw is going to be lower, equal or higher.</string>
+    <string name="under_image_text">Last throw: 1</string>
 </resources>

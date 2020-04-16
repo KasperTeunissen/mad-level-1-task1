@@ -9,7 +9,7 @@ android {
     viewBinding {
         enabled = true
     }
-    
+
         defaultConfig {
         applicationId "com.example.level1task1"
         minSdkVersion 23
