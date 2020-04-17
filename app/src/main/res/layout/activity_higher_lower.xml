@@ -29,39 +29,39 @@
         android:id="@+id/tvLastThrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/under_image_text"
+        android:text="@string/last_throw"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnLower"
         app:layout_constraintEnd_toEndOf="parent"
          />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLower"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/lower"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"/>
+        app:layout_constraintEnd_toStartOf="@+id/btnEquals"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEquals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        android:text="@string/equals"
+        app:layout_constraintStart_toEndOf="@+id/btnLower"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3" />
+        app:layout_constraintEnd_toStartOf="@+id/btnHigher" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnHigher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        android:text="@string/higher"
+        app:layout_constraintStart_toEndOf="@+id/btnEquals"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
